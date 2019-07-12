@@ -3,8 +3,8 @@ console.log(kittens)
 // Add your functions and code here
 
 function destructivelyAppendKitten(name) {
-  var name = "Kali"
-  kittens.push(name)
+  var name2 = "Kali"
+  kittens.push(name2)
 }
 console.log(kittens)
 
