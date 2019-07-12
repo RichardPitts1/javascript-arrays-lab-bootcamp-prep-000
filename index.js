@@ -1,13 +1,9 @@
 var kittens = ['Milo', 'Otis', 'Garfield'] //define your array here
-console.log(kittens)
+
 // Add your functions and code here
-
 function destructivelyAppendKitten(name) {
-  var name2 = "Kali"
-  kittens.push(name2)
-  console.log(kittens)
+  kittens.push(name)
 }
-
 
 function destructivelyPrependKitten(name) {
   kittens.unshift(name)
