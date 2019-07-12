@@ -22,19 +22,7 @@ function appendKitten(name) {
   return newArray
 }
 
-// function prependKitten(name) {
-//   var newArray2 = kittens.unshift(name)
-//   return newArray2
-// }
-
-// function removeLastKitten() {
-//   var newArray3 = kittens.pop()
-//   return newArray3
-// }
-
-
 var kittens = ['Milo', 'Otis', 'Garfield'] //define your array here
-
 
 function removeFirstKitten(name) {
   var newArray7 = kittens.slice(1)
