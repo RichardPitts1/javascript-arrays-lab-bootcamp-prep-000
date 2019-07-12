@@ -5,8 +5,9 @@ console.log(kittens)
 function destructivelyAppendKitten(name) {
   var name2 = "Kali"
   kittens.push(name2)
+  console.log(kittens)
 }
-console.log(kittens)
+
 
 function destructivelyPrependKitten(name) {
   kittens.unshift(name)
